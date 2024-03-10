@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "yolov8-img-clf"
+version = "0.1.0"
+description = ""
+authors = ["nshian <ianng800@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ultralytics = "^8.1.25"
+numpy = "^1.26.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
